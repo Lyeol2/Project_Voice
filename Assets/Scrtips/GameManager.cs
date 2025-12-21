@@ -7,6 +7,6 @@ public class GameManager : MonoSingleton<GameManager>
 {
     public async UniTask ChangeScene(string sceneName)
     {
-        await SceneManager.LoadSceneAsync(sceneName)
+        await SceneManager.LoadSceneAsync(sceneName);
     }
 }
